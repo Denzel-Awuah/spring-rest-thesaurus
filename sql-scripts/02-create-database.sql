@@ -35,15 +35,15 @@ CREATE TABLE `favourite-words` (
 -- Dumping data for table `favourite-word`
 --
 
-LOCK TABLES `favourite-word` WRITE;
-/*!40000 ALTER TABLE `favourite-word` DISABLE KEYS */;
+LOCK TABLES `favourite-words` WRITE;
+/*!40000 ALTER TABLE `favourite-words` DISABLE KEYS */;
 
-INSERT INTO `favourite-word` VALUES 
+INSERT INTO `favourite-words` VALUES 
 	(1,'Denzel'),
 	(2,'Awuah'),
 	(3,'Slatty');
 
-/*!40000 ALTER TABLE `customer` ENABLE KEYS */;
+/*!40000 ALTER TABLE `favourite-words` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
