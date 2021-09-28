@@ -5,7 +5,7 @@
 
 <hr>
 
-<a href="${pageContext.request.contextPath}/api/favwords">Get All Customers</a>
+<a href="${pageContext.request.contextPath}/api/favwords"></a>
 
 </body>
 </html>
