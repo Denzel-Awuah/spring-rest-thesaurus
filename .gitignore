@@ -1,4 +1,4 @@
 .settings
 sql-scripts/
 .idea
-/target
+/target/
